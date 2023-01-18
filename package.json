@@ -1,0 +1,19 @@
+{
+  "name": "cypress-sample-repository",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "eslint": "eslint .",
+    "eslint:fix": "eslint --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.3.0",
+    "cypress-plugin-api": "^2.10.0",
+    "eslint": "^8.32.0",
+    "eslint-plugin-cypress": "^2.12.1"
+  }
+}
