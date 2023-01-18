@@ -5,9 +5,7 @@
   "main": "index.js",
   "scripts": {
     "eslint": "eslint .",
-    "eslint:fix": "eslint --fix",
-    "open:test":"cypress open --config-file=cypress.test.config.js",
-    "run:test":"cypress run --config-file=cypress.test.config.js"
+    "eslint:fix": "eslint --fix"
   },
   "keywords": [],
   "author": "",
