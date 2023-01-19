@@ -27,6 +27,7 @@ describe('example Pet Swagger Api', () => {
     //making the request to create new user
     cy.createNewUser(newUserData).then(response=>{
       expect(response).not.to.be.null
+      expect(response.status).to.eq(200)
     })
     .getUserByUsername(newUserData.username)
     .get('@getUserByUsernameResponse').then(getUserByUsernameResponse => {
